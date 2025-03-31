@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-pagination-bullet {
+  background: white !important;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none !important;
+}
+
+@media (min-width: 768px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: flex !important;
+  }
+}
+
+.btn {
+  @apply bg-red-600 font-semibold hover:bg-red-700 hover:scale-105 transition-all duration-300 text-white px-4 py-3 rounded-full text-xl;
+}
+
+.header {
+    @apply text-6xl font-bold text-center mb-12
+}
