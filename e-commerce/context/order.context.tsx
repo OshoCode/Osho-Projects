@@ -6,7 +6,6 @@ import { useRouter } from "next/navigation"
 import { useCart } from "./cart.context"
 import type { CartItem } from "./cart.context"
 import { supabase } from '@/app/backend/client';
-import { stat } from "fs"
 
 export interface OrderItem extends CartItem {}
 

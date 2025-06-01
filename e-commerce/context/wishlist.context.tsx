@@ -19,8 +19,6 @@ const WishlistContext = createContext<WishlistContextType | undefined>(undefined
 
 export const WishlistProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [items, setItems] = useState<Product[]>([])
-  const { session } = useAuth()
-  const { products } = useProduct()
   
   // Load wishlist from localStorage on initial render
   useEffect(() => {
