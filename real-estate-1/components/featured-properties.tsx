@@ -47,8 +47,8 @@ export default function FeaturedProperties() {
   return (
     <section id="properties" className="py-24 bg-zinc-50 dark:bg-zinc-900">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-serif font-light text-zinc-900 dark:text-zinc-100 mb-4">
+        <div className="text-center mb-8">
+          <h2 className="text-3xl md:text-4xl font-serif font-light text-zinc-900 dark:text-zinc-100 mb-2">
             Featured <span className="font-medium">Properties</span>
           </h2>
           <div className="w-20 h-1 bg-amber-500 mx-auto"></div>

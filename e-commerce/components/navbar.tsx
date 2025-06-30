@@ -30,9 +30,6 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <div className="w-10 h-10 bg-[#2A5D3C] rounded-md flex items-center justify-center mr-2">
-                <span className="text-white font-bold text-xl">OG</span>
-              </div>
               <span className="text-xl font-bold text-gray-800">OutdoorGear</span>
             </Link>
           </div>

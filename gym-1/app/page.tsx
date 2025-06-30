@@ -87,16 +87,16 @@ export default function Home() {
               alt="Gym" 
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 z-20 flex items-center">
-              <div className="container mx-auto px-4">
-                <div className="max-w-3xl">
+            <div className="absolute inset-0 z-20 flex justify-center items-center">
+              <div className="container mx-auto px-4 flex justify-center">
+                <div className="max-w-3xl text-center">
                   <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
                     Transform Your Body, <span className="text-red-600">Transform Your Life</span>
                   </h1>
-                  <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl">
+                  <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
                     Join the ultimate fitness experience with state-of-the-art equipment, expert trainers, and a supportive community.
                   </p>
-                  <div className="flex flex-col sm:flex-row gap-4">
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <button className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-300 flex items-center justify-center gap-2">
                       Start Your Journey
                       <ArrowRight className="w-5 h-5" />
@@ -116,16 +116,16 @@ export default function Home() {
               alt="Gym" 
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 z-20 flex items-center">
-              <div className="container mx-auto px-4">
-                <div className="max-w-3xl">
+            <div className="absolute inset-0 z-20 flex justify-center items-center">
+              <div className="container mx-auto px-4 flex justify-center">
+                <div className="max-w-3xl text-center">
                   <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
                     Build Your Strength, <span className="text-red-600">Build Your Future</span>
                   </h1>
-                  <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl">
+                  <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
                     Experience the power of professional training and cutting-edge equipment in our world-class facility.
                   </p>
-                  <div className="flex flex-col sm:flex-row gap-4">
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <button className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-300 flex items-center justify-center gap-2">
                       Join Now
                       <ArrowRight className="w-5 h-5" />
